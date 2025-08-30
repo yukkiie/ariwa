@@ -1,0 +1,47 @@
+{
+  "name": "ariwa",
+  "version": "0.0.1",
+  "description": "A unified Discord bot client supporting Top.gg and WebSocket APIs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukkiie/ariwa.git"
+  },
+  "homepage": "https://github.com/yukkiie/ariwa#readme",
+  "bugs": {
+    "url": "https://github.com/yukkiie/ariwa/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [
+    "topgg",
+    "websocket",
+    "api",
+    "websockets-topgg"
+  ],
+  "author": "naykiie",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "@types/ws": "^8.18.1",
+    "jest": "^30.1.1",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@sapphire/fetch": "^3.0.5",
+    "@sapphire/result": "^2.7.2",
+    "dotenv": "^17.2.1",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
