@@ -72,7 +72,6 @@ export class AriwaClient extends EventEmitter {
     this.ws.on('open', () => {
       this.emit('open');
       this.reconnectAttempts = 0;
-      if (process.env.NODE_ENV !== 'test') console.log('WS open');
     });
 
     this.ws.on('message', this.handleMessage.bind(this));
