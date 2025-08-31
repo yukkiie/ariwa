@@ -1,6 +1,6 @@
 {
   "name": "ariwa",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A unified Discord bot client supporting Top.gg and WebSocket APIs",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
